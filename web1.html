@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometria Basica</title>
+    <script src="ejemplo2.js"></script>
+    <script>
+        function desplegar(){
+            texto = document.getElementById('display');
+            texto.value = geometria.listahtml();
+        }
+        
+    </script>
+    </head>
+<body>
+    <h1>Figuras Geometricas</h1>
+    <textarea name="display" id="display" rows="10" cols="10"></textarea>
+    <button type="boton" onclick="desplegar()">desplegar</button>
+</body>
+<style>
+    textarea{
+        width: 400px;
+        height: 100px;
+        background: blue;
+
+
+    }
+    background{
+        background: red;
+    }
+</style>
+
+</html>
