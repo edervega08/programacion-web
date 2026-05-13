@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prueba</title>
+</head>
+<body>
+
+<h1>Programacion web y orientado a objetos</h1>
+
+<script src="ejemplo2.js"></script>
+
+<form>
+<fieldset>
+
+<select id="tipofigura">
+<option value="1">Rectangulo</option>
+<option value="2">Triangulo</option>
+<option value="3">Circulo</option>
+</select>
+
+<label>Nombre</label>
+<input type="text" id="nombre"/>
+
+<label>Base</label>
+<input type="text" id="base"/>
+
+<label>Altura</label>
+<input type="text" id="altura"/>
+
+<label>Diametro</label>
+<input type="text" id="diametro"/>
+
+<button type="button" onclick="guardar()">Guardar</button>
+
+</fieldset>
+</form>
+
+
+<!-- TABLA COMPLETA -->
+<table border="1">
+
+<thead>
+<tr>
+
+<th>Figura</th>
+<th>Base</th>
+<th>Altura</th>
+<th>Area</th>
+<th>Perimetro</th>
+
+</tr>
+</thead>
+
+
+
+
+</table>
+
+
+<div id="tarjeta">
+    <ul>
+        <h1>detalle</h1>
+        <li>base:________</li>
+        <li>altura:________</li>
+        <li>area:________</li>
+        <li>perimetro:________</li>
+    </ul>
+</div>
+<style>
+    table{
+        width: 50%;
+        border: 6px;
+        color: blue;
+    }
+    #tarjeta{
+        width: 50%;
+        border: 1px;
+        color: black;
+        background: blueviolet;
+    }
+</style>
+
+</body>
+</html>

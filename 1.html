@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prueba</title>
+</head>
+
+<body>
+
+<h1>Programacion web y orientado a objetos</h1>
+
+<script src="prueba1.js"></script>
+
+<form>
+<fieldset>
+
+<select id="tipofigura">
+    <option value="1">Rectangulo</option>
+    <option value="2">Triangulo</option>
+    <option value="3">Circulo</option>
+</select>
+
+<label>Nombre</label>
+<input type="text" id="nombre"/>
+
+<label>Base</label>
+<input type="text" id="base"/>
+
+<label>Altura</label>
+<input type="text" id="altura"/>
+
+<label>Diametro</label>
+<input type="text" id="diametro"/>
+
+<br><br>
+
+<button type="button" onclick="guardar()">Guardar</button>
+<button type="button" onclick="listar()">Listar</button>
+
+</fieldset>
+</form>
+
+<br>
+
+<table id="figuras" border="1">
+<thead>
+<tr>
+    <th>Figura</th>
+    <th>Dimensiones</th>
+    <th>Área</th>
+    <th>Perímetro</th>
+</tr>
+</thead>
+
+<tbody id="figuraslista">
+</tbody>
+</table>
+
+<br>
+
+<div id="tarjeta">
+<ul>
+<h2>Detalle</h2>
+<li>base: ______</li>
+<li>altura: ______</li>
+<li>area: ______</li>
+<li>perimetro: ______</li>
+</ul>
+</div>
+
+<style>
+table{
+    width:50%;
+    color:rgb(0, 255, 8);
+    background: gray;
+    border-radius: 10px 0 10px 0;
+}
+
+#tarjeta{
+    width:25%;
+    background:blueviolet;
+    padding:10px;
+    color:black;
+   
+    border-radius: 10px;
+}
+
+.figuras{background-color: greenyellow;
+    color: greenyellow;
+
+}
+form{
+    background-color: gray;
+}
+h1{
+    color: red ;
+    
+}
+</style>
+
+</body>
+</html>
