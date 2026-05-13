@@ -7,6 +7,6 @@ export default {
   name: 'App'
 }
 </script>
-
+// --- IGNORE ---
 <style>
 </style>
