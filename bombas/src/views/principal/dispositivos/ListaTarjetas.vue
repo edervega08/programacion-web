@@ -2,15 +2,22 @@
     <div class="card">
         <div class="card-title p-3 border-bottom">
             <h3>Dispositivos</h3>
+            
         </div>
         <div class="card-body d-flex flex-wrap gap-3"> 
+            
             <Tarjeta 
+            
                 v-for="(dispositivo, idx) in dispositivos" 
                 :key="idx" 
                 :Dispositivo="dispositivo" 
+                
             />
+            
         </div> 
-    </div>
+        
+        </div>
+    
 </template>
 
 <script>

@@ -27,6 +27,16 @@
                     </ul>
                 </li>
             </ol>
+            <!-- Botones -->
+            <div class="d-flex justify-content-between mt-3">
+                <button type="button" class="btn btn-primary">
+                    <i class="bi bi-save2"></i> MODIFICAR
+                </button>
+
+                <button type="button" class="btn btn-danger">
+                    <i class="bi bi-x-circle"></i> ELIMINAR
+                </button>
+            </div>
         </div>
     </div>
 </template>

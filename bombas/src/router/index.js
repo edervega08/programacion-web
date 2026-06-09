@@ -32,8 +32,11 @@ const router = createRouter({
       path: '/listaTarjetas',
       name: 'listaTarjetas',
       component: ListaTarjetas
-      }
-      
+      }//,{
+      //path: '/editarDialog',
+      //name: 'editarDialog',
+      //component: EditarDialog
+      //}
       ]
     }
   ]
