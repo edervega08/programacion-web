@@ -1,4 +1,3 @@
-//EdiarDispositivo.vue
 <template>
     <div class="card w-75 mb-3">
   <div class="card-body">
