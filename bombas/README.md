@@ -1,6 +1,11 @@
-# bombeo
+# bombas 
+Alumno: Eder Joel Vega Bahena 
+Maestro: Agustín Rodriguez Ponce
+UMSNH-FACULTAD DE INGENIERÍA ELÉCTRICA 
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto pertenece a la materia de 
+Programación Web Y Orientación de Objetos
+
 
 ## Recommended IDE Setup
 
