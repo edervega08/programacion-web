@@ -1,5 +1,5 @@
 #bombas 
-#Datos:
+Datos:
 Alumno: Eder Joel Vega Bahena 
 Maestro: Agustín Rodriguez Ponce
 UMSNH-FACULTAD DE INGENIERÍA ELÉCTRICA 
