@@ -1,8 +1,9 @@
-# bombas 
+##bombas 
+##Datos:
 Alumno: Eder Joel Vega Bahena 
 Maestro: Agustín Rodriguez Ponce
 UMSNH-FACULTAD DE INGENIERÍA ELÉCTRICA 
-
+##Proyecto
 Este proyecto pertenece a la materia de 
 Programación Web Y Orientación de Objetos
 
