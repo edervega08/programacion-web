@@ -1,3 +1,4 @@
+//EdiarDispositivo.vue
 <template>
     <div class="card w-75 mb-3">
   <div class="card-body">
@@ -117,7 +118,5 @@ export default{
     border-radius: 10px;
     background-color: rgb(96, 223, 71);
 }
-
-
 
 </style>

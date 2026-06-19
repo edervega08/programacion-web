@@ -61,10 +61,18 @@ class DSDispositivo{
             }           
         ]
     }
-
-    getDispositivoslLista(){
+//esta es la que estaba
+    /*getDispositivoslLista(){
         return Promise.resolve(this.getDispositivosData())
+    }*/
+// la de ahorita
+    getDispositivoslListaFetch(){
+        
+        return fetch('http://localhost:8080/dispositivos/read')
+            .then(response => response.json())
+            
     }
+    
 }
 
 export default new DSDispositivo();

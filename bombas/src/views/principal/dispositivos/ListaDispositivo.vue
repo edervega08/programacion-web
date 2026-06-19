@@ -1,3 +1,4 @@
+//ListaDispositivos.vue
 <template>
     <div class="mb-3">
     <button
@@ -267,14 +268,30 @@ export default {
         }
     },
 
-    created() {
+    /*created() {
         dispositivosDS
             .getDispositivoslLista()
             .then(datos => {
                 this.dispositivos = datos
             })
-    },
-
+    },*/
+    /*
+created() {
+    dispositivosDS
+        .getDispositivoslListaFetch()
+        .then(datos => {
+            console.log(datos)
+            this.dispositivos = datos.dispositivos
+        })
+        .catch(error => {
+            console.error(error)
+        })
+},*/
+created() {
+    dispositivosDS.getDispositivoslListaFetch()
+        .then(datos => this.dispositivos = datos.dispositivos)
+        .catch(console.error)
+},
    methods: {
 
     nuevoDispositivo() {
